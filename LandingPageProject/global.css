@@ -1,0 +1,70 @@
+/* Genel Texler */
+.text-left{
+    text-align: left;
+}
+
+.heading-small{
+    font-size: 1.25rem;
+}
+.heading-medium{
+    font-size: 1.5rem;
+}
+.heading-big{
+    font-size: 1.75rem;
+}
+/* Colorslar */
+
+.bg-dark-red{
+    background: rgb(199, 5, 5);
+}
+
+.bg-light-white{
+    background: white;
+}
+
+/* Container  */
+
+.container{
+    max-width:1100px;
+    margin : 0 auto;
+}
+
+/* Buttons */
+
+.btn{
+    margin-top: 1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+}
+
+.btn-primary{
+        background: rgb(6, 150, 66);
+}
+.btn-primary :hover{
+    color:rgb(172, 14, 14);
+    background: white;
+    border: 0.5px solid  rgb(207, 94, 28);
+   }
+   h1{
+       margin-top: 30px;;
+   }
+
+   .itemImg{
+       max-width: 100%;   
+   }
+   h3{
+       color: rgb(70, 68, 68);
+       font-style: italic;
+       font-weight: 800;
+   }
+   
+    .description{
+       max-height: 3.5em;
+       overflow: hidden;
+       margin: 4%;
+           
+   }
+ .description p{
+    display: contents;
+ }

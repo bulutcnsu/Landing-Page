@@ -1,0 +1,188 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Open Sans",sans-serif;
+    color: rgb(90, 90, 90);
+    font-weight: bold;
+   }
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+#navbar{
+    color:#ffff;
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+    padding: 0 0.75rem;
+    height: 80px;
+    margin-top: -2%;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 0.6rem;
+}
+
+
+#navbar ul li a:hover{
+    background:rgb(180, 31, 31) ;
+    border-radius:4px;
+}
+
+#home{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding:0;
+
+
+}
+#home img{
+    max-width: 100%;
+    height: auto;
+    background: no-repeat center top;
+   display:block;
+   
+}
+#home .name{
+    text-align: center;
+}
+#home .name h2{
+    margin-bottom: 00.75rem;
+}
+
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+}
+
+/*Training */
+
+#training{
+    padding: 1rem;
+       
+}
+#training .items{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    border-color: black;
+    background-color: white;
+}
+#training .items .itemPart{
+    margin:0 1% 1% 1%;
+    background-color: rgb(224, 224, 224);
+    max-width: 50%;
+    float: left;
+}
+#training .item .item{
+  
+    text-align: center;
+    padding: 0.5rem;
+  
+
+}
+
+#training .containerArt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   }
+.containerArt .item{
+    background-color: rgb(224, 224, 224);
+    width: 50%;
+    
+
+}
+
+.containerArt  .itemArt :hover{
+    color: black;
+
+}
+.container .items .itemsBelow .item-art {
+    margin:1%;
+    background-color: rgb(224, 224, 224);
+}
+.container .items .itemsBelow .item-art :hover{
+    color:black;
+}
+
+.item .itemArt{
+    padding: 0;
+    border-radius: 5px;
+}
+#bugSkills{
+    padding: 0.5rem;
+
+}
+#bugSkills .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    max-width:100%;
+    margin : 0 auto;
+   }
+
+#bugSkills .items .itemsBelow{
+    justify-content: space-evenly;
+    float: left;     
+    display: inline-flex ;
+    max-width: 50%;  
+}
+#bugSkills .items .itemsBelow .item{
+    padding: 0.5%;
+    padding-bottom: 2%;
+      
+}
+#contact{
+    padding: 0.5rem;
+}
+
+#contact .contact{
+    padding:0.5rem;
+    height:8em;
+  
+
+}
+.contact .contactPart{
+   
+    height: 100%;
+    width: 25%;
+    display: flex;
+    float: left;
+}
+
+.contactPart ul{
+    list-style-type: none;
+    display: list-item;
+    padding:0.5rem;
+    
+}
+.contactPart ul li{
+    padding:0 0 4% 0;
+    font-weight: lighter;
+   
+}
+
+.contactPart ul li a{
+    color: rgb(211, 207, 207);
+}
+
+.contactPart ul li :hover{
+    color: white;
+}
+.contactPart   p{
+   
+    font-size: 1.1rem;
+    margin-bottom: 5%;
+}

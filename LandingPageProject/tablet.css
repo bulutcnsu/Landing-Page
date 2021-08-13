@@ -1,0 +1,20 @@
+h1{
+    color:lightseagreen;
+}
+
+#home img{
+    max-width: 100%;
+    height: auto;
+    background: no-repeat center top;
+}
+.contactPart ul li{
+    margin: 0.4rem 0  0 0;
+    font-feature-settings: "vkna";
+    font-size: 0.9em;
+    font-weight: 600;
+}
+.contactPart   p{
+   
+    font-size: 1rem;
+    margin-bottom: 5%;
+}
